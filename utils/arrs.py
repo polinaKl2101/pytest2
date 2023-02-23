@@ -18,7 +18,6 @@ def get(array, index, default=None):
     elif index > len(array):
         return default
 
-
     return array[index]
 
 
